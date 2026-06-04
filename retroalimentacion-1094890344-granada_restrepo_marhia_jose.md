@@ -27,6 +27,7 @@
 - Nota de ritmo de commits (promedio): 3.75 / 5.0
 
 Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
+
 ## Retroalimentación
 
 - Archivo revisado: Apophis.ipynb
@@ -41,6 +42,12 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
 ### Aspectos por mejorar
 
 - La narrativa del notebook debe mejorar: muchas celdas de código no están antecedidas por explicación.
+- Evitar repeticiones de patrones de cálculo como "pos_vel_saturno = pos_vel_saturno / np.array([AU, AU, AU, V_canon, V_canon, V_canon])" para eso se puede definir una variable factor_conversion = 1 / np.array([AU, AU, AU, V_canon, V_canon, V_canon]).
+- El modelo de 3 cuerpos no concluye con ningún resultado de valor para el proyecto ¿qué se quería obtener?
+- Indicar las fuentes de las que obtuvo las masas de los cuerpos. 
+- No hay aplicación de la solución analítica al problema de los dos cuerpos (solución a la ecuación de Kepler)
+- No hay aplicación de la teoría del CRTBP, al menos en la representación de la solución en el sistema rotante.
+- Se recomienda cerrar con una sección unica de conclusiones (3-5 puntos) que sintetice hallazgos físicos y computacionales y responda directamente al objetivo del proyecto.
 
 ### Valoración global
 
