@@ -3,3 +3,10 @@ matplotlib
 pymcel
 rebound
 scipy
+plotly.graph_objects
+spiceypy
+scipy.spatial.distance
+scipy.integrate
+sympy
+pandas
+time
